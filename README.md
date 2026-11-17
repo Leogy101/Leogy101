@@ -6,7 +6,7 @@ My background is in video production. I’m transitioning into AI engineering by
 
 ## Selected projects
 
-Three complementary tools, each independently installable and usable.
+Four complementary tools, each independently installable and usable.
 
 ### [Agent Flight Recorder](https://github.com/Leogy101/agent-flight-recorder) · Observe
 
@@ -32,10 +32,18 @@ Local SQLite FTS5 retrieval with exact citations, immutable revisions, scoped ac
 
 [Experimental alpha v0.3.2a1](https://github.com/Leogy101/knowledge-retrieval-engine/releases/tag/v0.3.2a1) · [Known limitations](https://github.com/Leogy101/knowledge-retrieval-engine/blob/v0.3.2a1/docs/LIMITATIONS.md)
 
+### [OpenClaw+](https://github.com/Leogy101/openclaw-plus) · Workspace
+
+An independent, unofficial desktop application for existing OpenClaw installations on Apple Silicon macOS. Brings conversations, agent activity, voice, terminal work, and native permissions together. Its Models workspace connects to separately installed GCB for model research, explicitly authorized benchmarks, capability bios, and explainable routing previews.
+
+**Preview scope:** Offline demonstrations and one verified local Ollama smoke test; no broad model qualification or live routing activation. The macOS app is ad-hoc signed, not notarized.
+
+[Experimental preview v0.8.0-preview.1](https://github.com/Leogy101/openclaw-plus/releases/tag/v0.8.0-preview.1)
+
 ## Engineering approach
 
 - Reproducible offline examples, explicit test fixtures, and measured results.
 - Privacy boundaries, provenance, negative-path tests, and documented unknowns.
 - Independent Python packages, clean-install checks, GitHub Actions, and security checks.
 
-These are experimental alphas with documented support boundaries. GCB’s native OpenClaw/Hermes routing remains preview-only. KRE can miss fragmented evidence; independent semantic review is incomplete, and generalized token or cost savings remain unproven.
+These are experimental releases with documented support boundaries. GCB’s native OpenClaw/Hermes routing remains preview-only. KRE can miss fragmented evidence; independent semantic review is incomplete, and generalized token or cost savings remain unproven.
